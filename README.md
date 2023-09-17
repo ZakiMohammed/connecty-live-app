@@ -1,8 +1,59 @@
-# React + Vite
+# MHSSP Training: React Getting Started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Starter project for React - MHSSP Training Sept 2023.
 
-Currently, two official plugins are available:
+## Run Application
+```
+npm run dev
+```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Initial Setup
+
+```
+npm create vite@latest
+
+# project name: connecty-app
+# framework: react
+# variant: JavaScript
+
+cd connecty-app
+npm i
+npm run dev
+```
+
+## Add Dependencies
+
+```
+npm i bootswatch
+npm i react-icons
+```
+
+## GitHub Repository
+
+Follow below steps to create GitHub repository:
+
+1. Create GitHub repository `connecty-app`
+1. Open new terminal in VS Code
+1. Run below commands to initialize and push changes
+
+```
+git init
+git add .
+git commit -m "first commit"
+git remote add origin https://github.com/ZakiMohammed/connecty-app.git
+git push -u origin master
+```
+
+## Deploy to Netlify
+
+Follow below steps for Netlify deployment:
+
+1. Login to Netlify using GitHub
+1. Select option "Add new site"
+1. Select "import an existing project" (i.e. connecty-app)
+1. Select "Deploy with GitHub" option
+1. Type your repository name (i.e. connecty-app)
+1. Select your repository (i.e. connecty-app)
+1. Click on "Deploy connecty-app" button
+1. Once deployed change the domain to your own one
+1. Go to "Domain management" and edit your domain name
